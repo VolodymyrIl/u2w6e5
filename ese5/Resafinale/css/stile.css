@@ -1,0 +1,1107 @@
+body {
+  max-width: 500px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 0;
+
+  padding-left: 0px;
+  padding-right: 0px;
+  line-height: 2em;
+}
+p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+button {
+  border: 0;
+  line-height: 3rem;
+  font-weight: 700;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #fe4523;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #ff6633;
+  transition: background-color 0.5s ease;
+}
+
+button:active {
+  background-color: #ff4d00;
+  transition: background-color 0.2s ease;
+}
+
+button span {
+  position: absolute;
+  display: block;
+}
+
+button .shadow {
+  background: linear-gradient(135deg, transparent, #fff 50%, transparent);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  animation: shadow 3s infinite linear;
+}
+
+button .shadow:nth-child(1) {
+  animation-delay: 0s;
+}
+
+button .shadow:nth-child(2) {
+  animation-delay: -2s;
+}
+
+button .shadow:nth-child(3) {
+  animation-delay: -1s;
+}
+
+button .shadow:nth-child(4) {
+  animation-delay: -3s;
+}
+
+@keyframes shadow {
+  from {
+    transform: rotate(0deg) translate(-200%);
+  }
+  to {
+    transform: rotate(360deg) translate(-200%);
+  }
+}
+
+
+header div:first-child {
+  background-color: black;
+}
+header img {
+  width: 50%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+header div:last-of-type {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+}
+header h1 {
+  color: #3394c9;
+  font-size: 2em;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+header p {
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 10px;
+  padding-bottom: 1em;
+  margin-bottom: 1rem;
+}
+header button {
+  border: 0;
+  line-height: 3rem;
+  font-weight: 700;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+
+  border-radius: 5px;
+  background-color: #fe4523;
+  margin-bottom: 2rem;
+}
+main h3 {
+  color: #3394c9;
+  font-weight: 700;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+main div {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+main img.rotonda {
+  border-radius: 100%;
+}
+main div.sfondoarancione {
+  background-color: #ee2200;
+  color: #fff;
+}
+main h2 {
+  font-size: 2em;
+  font-weight: 600;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+main div.sfondoarancione p:first-of-type {
+  font-style: italic;
+  font-size: 0.9em;
+  padding-bottom: 1em;
+}
+
+div.sfondoarancione p {
+  font-size: 0.8em;
+  line-height: 1.9em;
+  padding-bottom: 2em;
+}
+div.sfondoarancione p span {
+  font-size: 1.5em;
+}
+section {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+section div {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border: solid 1px rgb(177, 177, 177);
+}
+section div img {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+h4 {
+  color: #3394c9;
+  font-weight: 700;
+}
+.noncliccabile {
+  text-decoration: none;
+}
+footer {
+  background-color: #34aac9;
+  background-image: linear-gradient(to bottom #34aac9 #178a8c);
+  color: #c8e7f0;
+}
+h5 {
+  font-size: 2em;
+  font-weight: 600;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+footer a {
+  color: white;
+}
+footer p:last-of-type {
+  border-top: 2px solid white;
+  padding-top: 7.5%;
+  padding-bottom: 15%;
+  margin-inline: 25%;
+  font-size: 0.9em;
+  padding-left: 0;
+  padding-right: 0;
+}
+footer p:nth-last-child(2) {
+  padding-bottom: 2em;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    max-width: 100%;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  header img {
+    width: 80%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  header h1 {
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  header p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  header button {
+    font-size: 0.8em;
+    line-height: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  main h2 {
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+  }
+  main div.sfondoarancione p:first-of-type {
+    font-size: 0.8em;
+    padding-bottom: 0.5em;
+  }
+  div.sfondoarancione p {
+    font-size: 0.7em;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+  }
+  section div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  footer h5 {
+    font-size: 1.5em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  footer p:last-of-type {
+    margin-inline: 10%;
+    font-size: 0.8em;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 1em;
+  }
+  header img {
+    width: 70%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  header h1 {
+    font-size: 1.5em;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  header p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  header button {
+    font-size: 0.9rem;
+  }
+  main h2 {
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+  }
+  main h3 {
+    font-size: 1.1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  main div.sfondoarancione p:first-of-type {
+    font-size: 0.8em;
+    padding-bottom: 0.5em;
+  }
+  div.sfondoarancione p {
+    font-size: 0.7em;
+    line-height: 1.7em;
+    padding-bottom: 1em;
+  }
+  section div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  h5 {
+    font-size: 1.5em;
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+  footer p:last-of-type {
+    margin-inline: 10%;
+    font-size: 0.8em;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  body {
+    font-size: 1em;
+    line-height: 1.6em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  header img {
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  header p {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 1rem;
+  }
+
+  header button {
+    line-height: 2.5rem;
+    font-size: 0.9rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  main h3 {
+    font-size: 1.2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+
+  main h2 {
+    font-size: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  main div.sfondoarancione p:first-of-type {
+    font-size: 0.8em;
+    padding-bottom: 0.5em;
+  }
+
+  div.sfondoarancione p {
+    font-size: 0.7em;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  section div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  footer {
+    background-color: #34aac9;
+    background-image: linear-gradient(to bottom, #34aac9, #178a8c);
+    color: #c8e7f0;
+    font-size: 0.8em;
+  }
+
+  h5 {
+    font-size: 1.2em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  footer p:last-of-type {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-inline: 5%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  body {
+    max-width: 100%;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  main h2 {
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+  }
+
+  main h3 {
+    font-size: 1em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+  }
+
+  main div {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  main div.sfondoarancione {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  div.sfondoarancione p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  footer p:last-of-type {
+    margin-inline: 10%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Imposta la larghezza massima del contenitore */
+  body {
+    max-width: 100%;
+  }
+
+  /* Imposta i margini e il padding a zero per il contenitore */
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Imposta la dimensione del font a 14px */
+  body {
+    font-size: 14px;
+  }
+
+  /* Aggiusta i margini e il padding per gli elementi della testata */
+  header div:first-child {
+    padding: 10px;
+  }
+
+  header img {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  header h1 {
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  header p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 1rem;
+  }
+
+  /* Aggiusta i margini e il padding per gli elementi del corpo */
+  main h3 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  main div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  main img.rotonda {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+
+  main div.sfondoarancione p:first-of-type {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  div.sfondoarancione p {
+    font-size: 14px;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+  }
+
+  div.sfondoarancione p span {
+    font-size: 20px;
+  }
+
+  section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  section div {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: solid 1px rgb(177, 177, 177);
+  }
+
+  section div img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  h4 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  footer h5 {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  footer p:last-of-type {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-inline: 5%;
+    font-size: 14px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer p:nth-last-child(2) {
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    max-width: 768px;
+    font-size: 1.2em;
+    line-height: 1.8em;
+  }
+  
+  header img {
+    width: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  main h3 {
+    font-size: 1.5em;
+  }
+  
+  main h2 {
+    font-size: 2.5em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+  
+  section div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  footer {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  
+  footer p:last-of-type {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-inline: 10%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    max-width: 960px;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2em;
+  }
+
+  p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  header div:first-child {
+    background-color: black;
+  }
+
+  header img {
+    width: 40%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  header div:last-of-type {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+  }
+
+  header h1 {
+    color: #3394c9;
+    font-size: 2em;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  header p {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 10px;
+    padding-bottom: 1em;
+    margin-bottom: 1rem;
+  }
+
+  header button {
+    border: 0;
+    line-height: 3rem;
+    font-weight: 700;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #fe4523;
+    margin-bottom: 2rem;
+  }
+
+  main h3 {
+    color: #3394c9;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  main div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  main img.rotonda {
+    border-radius: 100%;
+  }
+
+  main div.sfondoarancione {
+    background-color: #ee2200;
+    color: #fff;
+  }
+
+  main h2 {
+    font-size: 2em;
+    font-weight: 600;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  main div.sfondoarancione p:first-of-type {
+    font-style: italic;
+    font-size: 0.9em;
+    padding-bottom: 1em;
+  }
+
+  div.sfondoarancione p {
+    font-size: 0.8em;
+    line-height: 1.9em;
+    padding-bottom: 2em;
+  }
+
+  div.sfondoarancione p span {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+
+  section div {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: solid 1px rgb(177, 177, 177);
+  }
+
+  section div img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 800px) {
+  body {
+    max-width: 700px;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  
+  p {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  header img {
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  header h1 {
+    font-size: 1.8em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  
+  header p {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5px;
+    padding-bottom: 0.5em;
+  }
+  
+  header button {
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  main h3 {
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  
+  main div {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  
+  main h2 {
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+  }
+  
+  div.sfondoarancione p:first-of-type {
+    font-size: 0.8em;
+    padding-bottom: 0.5em;
+  }
+  
+  div.sfondoarancione p {
+    font-size: 0.7em;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+  }
+  
+  div.sfondoarancione p span {
+    font-size: 1.2em;
+  }
+  
+  section div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: solid 1px rgb(177, 177, 177);
+  }
+  
+  footer {
+    font-size: 0.8em;
+  }
+  
+  h5 {
+    font-size: 1.5em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  footer p:last-of-type {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-inline: 15%;
+    font-size: 0.8em;
+  }
+}
+
+/* Styles for 320x1024 screen size */
+
+@media only screen and (max-width: 320px) {
+  body {
+    max-width: 100%;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    padding: 5%;
+  }
+
+  header img {
+    width: 80%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+  header div:last-of-type {
+    background-image: none;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+
+  header p {
+    padding: 5%;
+  }
+
+  header button {
+    line-height: 2.5rem;
+    font-size: 0.9em;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  main h3 {
+    font-size: 1.2em;
+    padding: 1rem;
+  }
+
+  main div {
+    margin: 0;
+    padding: 0;
+  }
+
+  main img.rotonda {
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  main div.sfondoarancione p:first-of-type {
+    font-size: 0.8em;
+    padding-bottom: 1em;
+  }
+
+  div.sfondoarancione p {
+    font-size: 0.7em;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  div.sfondoarancione p span {
+    font-size: 1.2em;
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  section div {
+    margin: 5%;
+    border: none;
+  }
+
+  section div img {
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 1.2em;
+    padding: 1rem;
+  }
+
+  footer {
+    background-image: none;
+  }
+
+  h5 {
+    font-size: 1.5em;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+  footer p:last-of-type {
+    margin-inline: 10%;
+    font-size: 0.8em;
+    padding: 2em;
+  }
+
+  footer p:nth-last-child(2) {
+    padding-bottom: 1em;
+  }
+}
+
+/* Schermo 1570 x 1240 */
+@media screen and (min-width: 1570px) and (min-height: 1240px) {
+  body {
+    max-width: 800px;
+    font-size: 1.4em;
+    line-height: 2.2em;
+  }
+  p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  header div:first-child {
+    background-color: black;
+  }
+  header img {
+    width: 40%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  header div:last-of-type {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+  }
+  header h1 {
+    font-size: 3em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  header p {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 10px;
+    padding-bottom: 2em;
+    margin-bottom: 2rem;
+  }
+  header button {
+    line-height: 4rem;
+    font-size: 1.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 7px;
+    margin-bottom: 3rem;
+  }
+  main h3 {
+    font-size: 2.2em;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  main div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  main img.rotonda {
+    border-radius: 100%;
+  }
+  main div.sfondoarancione p:first-of-type {
+    font-style: italic;
+    font-size: 1.1em;
+    padding-bottom: 2em;
+  }
+  div.sfondoarancione p {
+    font-size: 1em;
+    line-height: 2em;
+    padding-bottom: 3em;
+  }
+  div.sfondoarancione p span {
+    font-size: 2em;
+  }
+  section {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+  section div {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    border: solid 1px rgb(177, 177, 177);
+  }
+  h4 {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  footer {
+    background-color: #34aac9;
+    background-image: linear-gradient(to bottom #34aac9 #178a8c);
+    color: #c8e7f0;
+  }
+  h5 {
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+  footer p:last-of-type {
+    border-top: 2px solid white;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    margin-inline: 25%;
+    font-size: 1.2em;
+  }
+}
